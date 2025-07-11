@@ -1,0 +1,59 @@
+{
+  "name": "mi-proyecto",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "@fontsource/montserrat": "^5.2.5",
+    "axios": "^1.9.0",
+    "mi-proyecto": "file:",
+    "next": "^15.3.5",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-icons": "^5.5.0",
+    "stylelint-config-standard": "^37.0.0",
+    "stylelint-order": "^6.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/plugin-transform-class-properties": "^7.27.1",
+    "@babel/plugin-transform-optional-chaining": "^7.27.1",
+    "@babel/plugin-transform-runtime": "^7.27.4",
+    "@emotion/babel-plugin": "^11.13.5",
+    "@eslint/eslintrc": "^3",
+    "@swc/core": "^1.12.1",
+    "@swc/jest": "^0.2.38",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@types/jest": "^30.0.0",
+    "@types/node": "22.13.1",
+    "@types/react": "19.1.6",
+    "babel-jest": "^30.0.2",
+    "dotenv": "^16.5.0",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.2",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^30.0.3",
+    "jest-environment-jsdom": "^30.0.2",
+    "jest-sonar-reporter": "^2.0.0",
+    "postcss": "^8",
+    "postcss-styled-syntax": "^0.7.1",
+    "stylelint": "^16.17.0",
+    "stylelint-config-recommended": "^15.0.0",
+    "stylelint-config-tailwindcss": "^1.0.0",
+    "tailwindcss": "^3.4.1",
+    "ts-jest": "^29.4.0"
+  },
+  "overrides": {
+    "@types/react": "19.1.6"
+  }
+}

@@ -1,0 +1,10 @@
+export const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || '';
+export const SINCONV = process.env.NEXT_PUBLIC_API_URL_TYPE_DOCUMENTS || '';
+export const urlTienda = process.env.NEXT_PUBLIC_URL_TIENDA || '';
+export const urlCorporativo = process.env.NEXT_PUBLIC_URL_CORPORATIVO || '';
+export const urlNovedades = process.env.NEXT_PUBLIC_URL_NOVEDADES || '';
+export const urlLineasAyuda = process.env.NEXT_PUBLIC_URL_AYUDA_LINEAS_ATENCION || '';
+export const urlAyudaLogin = process.env.NEXT_PUBLIC_URL_AYUDA_GUIA_LOGIN || '';
+export const urlAyudaCambio = process.env.NEXT_PUBLIC_URL_AYUDA_GUIA_CAMBIO || '';
+export const urlAyudaRecupPersona = process.env.NEXT_PUBLIC_URL_AYUDA_GUIA_RECUP_PERSONA || '';
+export const urlAyudaRecupEmpresa = process.env.NEXT_PUBLIC_URL_AYUDA_GUIA_RECUP_EMPRESA || '';

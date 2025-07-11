@@ -1,0 +1,434 @@
+[
+    {
+        "AlfaNumerico": false,
+        "Title": "Cédula de Ciudadanía",
+        "code": "cc",
+        "id-compensar": 1,
+        "max": {
+            "fla": 10,
+            "flc": 10,
+            "fld": 10,
+            "flr": 10,
+            "fll": 10
+        },
+        "min": {
+            "fla": 3,
+            "flc": 3,
+            "fld": 3,
+            "flr": 3,
+            "fll": 3
+        },
+        "Fl": {
+            "fla": true,
+            "flc": true,
+            "fld": true,
+            "flr": true,
+            "fll": true
+        }
+    },
+    {
+        "AlfaNumerico": false,
+        "Title": "NIT",
+        "code": "ni",
+        "id-compensar": 2,
+        "max": {
+            "fla": 9,
+            "flc": 9,
+            "fld": 9,
+            "flr": 9,
+            "fll": 9
+        },
+        "min": {
+            "fla": 9,
+            "flc": 9,
+            "fld": 9,
+            "flr": 9,
+            "fll": 9
+        },
+        "Fl": {
+            "fla": true,
+            "flc": true,
+            "fld": true,
+            "flr": true,
+            "fll": false
+        }
+    },
+    {
+        "AlfaNumerico": false,
+        "Title": "Tarjeta de Identidad",
+        "code": "ti",
+        "id-compensar": 3,
+        "max": {
+            "fla": 11,
+            "flc": 11,
+            "fld": 11,
+            "flr": 11,
+            "fll": 11
+        },
+        "min": {
+            "fla": 10,
+            "flc": 10,
+            "fld": 10,
+            "flr": 10,
+            "fll": 10
+        },
+        "Fl": {
+            "fla": false,
+            "flc": false,
+            "fld": false,
+            "flr": false,
+            "fll": false
+        }
+    },
+    {
+        "AlfaNumerico": false,
+        "Title": "Cédula de Extranjería",
+        "code": "ce",
+        "id-compensar": 4,
+        "max": {
+            "fla": 7,
+            "flc": 7,
+            "fld": 7,
+            "flr": 7,
+            "fll": 7
+        },
+        "min": {
+            "fla": 3,
+            "flc": 3,
+            "fld": 3,
+            "flr": 3,
+            "fll": 3
+        },
+        "Fl": {
+            "fla": true,
+            "flc": true,
+            "fld": true,
+            "flr": true,
+            "fll": true
+        }
+    },
+    {
+        "AlfaNumerico": true,
+        "Title": "Pasaporte",
+        "code": "pa",
+        "id-compensar": 5,
+        "max": {
+            "fla": 16,
+            "flc": 16,
+            "fld": 16,
+            "flr": 16,
+            "fll": 16
+        },
+        "min": {
+            "fla": 3,
+            "flc": 3,
+            "fld": 3,
+            "flr": 3,
+            "fll": 3
+        },
+        "Fl": {
+            "fla": false,
+            "flc": false,
+            "fld": false,
+            "flr": false,
+            "fll": true
+        }
+    },
+    {
+        "AlfaNumerico": true,
+        "Title": "Carnet diplomático",
+        "code": "cd",
+        "id-compensar": 6,
+        "max": {
+            "fla": 11,
+            "flc": 11,
+            "fld": 11,
+            "flr": 11,
+            "fll": 11
+        },
+        "min": {
+            "fla": 3,
+            "flc": 3,
+            "fld": 3,
+            "flr": 3,
+            "fll": 3
+        },
+        "Fl": {
+            "fla": false,
+            "flc": true,
+            "fld": true,
+            "flr": true,
+            "fll": true
+        }
+    },
+    {
+        "AlfaNumerico": false,
+        "Title": "Registro Civil de Nacimiento",
+        "code": "rc",
+        "id-compensar": 7,
+        "max": {
+            "fla": 11,
+            "flc": 11,
+            "fld": 11,
+            "flr": 11,
+            "fll": 11
+        },
+        "min": {
+            "fla": 10,
+            "flc": 10,
+            "fld": 10,
+            "flr": 10,
+            "fll": 10
+        },
+        "Fl": {
+            "fla": false,
+            "flc": false,
+            "fld": false,
+            "flr": false,
+            "fll": false
+        }
+    },
+    {
+        "AlfaNumerico": true,
+        "Title": "NUIP",
+        "code": "nu",
+        "id-compensar": 8,
+        "max": {
+            "fla": 11,
+            "flc": 11,
+            "fld": 11,
+            "flr": 11,
+            "fll": 11
+        },
+        "min": {
+            "fla": 10,
+            "flc": 10,
+            "fld": 10,
+            "flr": 10,
+            "fll": 10
+        },
+        "Fl": {
+            "fla": false,
+            "flc": false,
+            "fld": false,
+            "flr": false,
+            "fll": false
+        }
+    },
+    {
+        "AlfaNumerico": false,
+        "Title": "Certificado Nacido Vivo",
+        "code": "cn",
+        "id-compensar": 9,
+        "max": {
+            "fla": 14,
+            "flc": 14,
+            "fld": 14,
+            "flr": 14,
+            "fll": 14
+        },
+        "min": {
+            "fla": 9,
+            "flc": 9,
+            "fld": 9,
+            "flr": 9,
+            "fll": 9
+        },
+        "Fl": {
+            "fla": false,
+            "flc": false,
+            "fld": false,
+            "flr": false,
+            "fll": false
+        }
+    },
+    {
+        "AlfaNumerico": false,
+        "Title": "Certificado Nacido",
+        "code": "cv",
+        "id-compensar": 10,
+        "max": {
+            "fla": 14,
+            "flc": 14,
+            "fld": 14,
+            "flr": 14,
+            "fll": 14
+        },
+        "min": {
+            "fla": 9,
+            "flc": 9,
+            "fld": 9,
+            "flr": 9,
+            "fll": 9
+        },
+        "Fl": {
+            "fla": false,
+            "flc": false,
+            "fld": false,
+            "flr": false,
+            "fll": false
+        }
+    },
+    {
+        "AlfaNumerico": false,
+        "Title": "Permiso Especial de Permanencia",
+        "code": "pe",
+        "id-compensar": 11,
+        "max": {
+            "fla": 15,
+            "flc": 15,
+            "fld": 15,
+            "flr": 15,
+            "fll": 15
+        },
+        "min": {
+            "fla": 15,
+            "flc": 15,
+            "fld": 15,
+            "flr": 15,
+            "fll": 15
+        },
+        "Fl": {
+            "fla": false,
+            "flc": false,
+            "fld": false,
+            "flr": false,
+            "fll": false
+        }
+    },
+    {
+        "AlfaNumerico": true,
+        "Title": "Adulto SIN documento de identificación",
+        "code": "as",
+        "id-compensar": 12,
+        "max": {
+            "fla": 10,
+            "flc": 10,
+            "fld": 10,
+            "flr": 10,
+            "fll": 10
+        },
+        "min": {
+            "fla": 10,
+            "flc": 10,
+            "fld": 10,
+            "flr": 10,
+            "fll": 10
+        },
+        "Fl": {
+            "fla": false,
+            "flc": false,
+            "fld": false,
+            "flr": false,
+            "fll": false
+        }
+    },
+    {
+        "AlfaNumerico": true,
+        "Title": "Menor SIN Documento de Identificación",
+        "code": "ms",
+        "id-compensar": 13,
+        "max": {
+            "fla": 12,
+            "flc": 12,
+            "fld": 12,
+            "flr": 12,
+            "fll": 12
+        },
+        "min": {
+            "fla": 6,
+            "flc": 6,
+            "fld": 6,
+            "flr": 6,
+            "fll": 6
+        },
+        "Fl": {
+            "fla": false,
+            "flc": false,
+            "fld": false,
+            "flr": false,
+            "fll": false
+        }
+    },
+    {
+        "AlfaNumerico": false,
+        "Title": "Permiso por proteccion temporal",
+        "code": "pt",
+        "id-compensar": 14,
+        "max": {
+            "fla": 10,
+            "flc": 8,
+            "fld": 8,
+            "flr": 8,
+            "fll": 8
+        },
+        "min": {
+            "fla": 7,
+            "flc": 7,
+            "fld": 7,
+            "flr": 7,
+            "fll": 7
+        },
+        "Fl": {
+            "fla": true,
+            "flc": true,
+            "fld": false,
+            "flr": true,
+            "fll": true
+        }
+    },
+    {
+        "AlfaNumerico": true,
+        "Title": "Documento Extranjero",
+        "code": "de",
+        "id-compensar": 15,
+        "max": {
+            "fla": 20,
+            "flc": 20,
+            "fld": 20,
+            "flr": 20,
+            "fll": 20
+        },
+        "min": {
+            "fla": 3,
+            "flc": 3,
+            "fld": 3,
+            "flr": 3,
+            "fll": 3
+        },
+        "Fl": {
+            "fla": false,
+            "flc": false,
+            "fld": false,
+            "flr": false,
+            "fll": false
+        }
+    },
+    {
+        "Title": "Documento de Prueba",
+        "code": "dp",
+        "AlfaNumerico": true,
+        "max": {
+            "fla": 7,
+            "flc": 7,
+            "fld": 7,
+            "flr": 7,
+            "fll": 7
+        },
+        "min": {
+            "fla": 7,
+            "flc": 7,
+            "fld": 7,
+            "flr": 7,
+            "fll": 7
+        },
+        "id-compensar": 19,
+        "Fl": {
+            "fla": false,
+            "flc": false,
+            "fld": false,
+            "flr": false,
+            "fll": false
+        }
+    }
+]
