@@ -1,29 +1,33 @@
-// next.config.mjs
 import 'dotenv/config';
 
-const isGithubPages = process.env.GITHUB_PAGES === 'true';
-const basePath = isGithubPages ? '/uicmp' : (process.env.BASE_PATH || '');
+const basePath = process.env.BASE_PATH || '';
 
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath,
-  assetPrefix: `${basePath}/`,
-  output: 'export', // esto habilita `next export`
-
-  compiler: {
-    styledComponents: true,
-  },
-
-  experimental: {
-    forceSwcTransforms: true,
-  },
-
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-
-  images: {
-    unoptimized: true,
-  },
+    // Base path configuration
+    basePath: basePath,
+    assetPrefix: `${basePath}/`,
+    
+    // Build optimizations
+    compiler: {
+        // Enable styled-components support
+        styledComponents: true,
+    },
+    
+    // Experimental features
+    experimental: {
+        forceSwcTransforms: true,
+    },
+    
+    // ESLint configuration
+    eslint: {
+        ignoreDuringBuilds: true,
+    },
+    
+    // Images configuration
+    images: {
+        unoptimized: true, // If you're using next/image
+    },
 };
 
 export default nextConfig;
