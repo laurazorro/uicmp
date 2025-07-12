@@ -107,18 +107,16 @@ export default function Formulario_login({ onSubmit }) {
     setIsFormValid(isValid);
   }, [selectedDocument, documentNumber, password]);
   
-  /*const biometricSetup = () => {
-    console.log("Entre en biometricSetup");
-    if (biometricAuthAvailable()) {
-      setIsBiometricOptionAvailable(HostApp.biometricAuthAvailable());
-    } else {
-      setIsBiometricOptionAvailable(false);
-    }
-    console.log(biometricAuthAvailable());
-    console.log("IsBiometricOptionAvailable",isBiometricOptionAvailable);
-  };*/
-
   useEffect(() => {
+
+    if (window.HostApp) {
+      // Si HostApp existe, asumimos que estamos dentro de una app móvil (WebView)
+      console.log(window.HostApp);
+    } else {
+      // Si HostApp no existe, es una página web normal
+      console.log("no encontro window.hostapp")
+    }
+
     //window.biometricSetup = biometricSetup;
     window.biometricSetup = () => {
       console.log("Entre en biometricSetup");
@@ -135,7 +133,7 @@ export default function Formulario_login({ onSubmit }) {
 
     window.biometricAuthAvailable = () => {
       console.log("isMobileApp",isMobileApp);
-      console.log(HostApp);
+      console.log("HOSTaPP",HostApp);
       if (isMobileApp && HostApp) {
         try {
           return HostApp.biometricAuthAvailable();
