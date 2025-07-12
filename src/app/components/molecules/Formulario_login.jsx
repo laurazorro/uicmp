@@ -106,17 +106,18 @@ export default function Formulario_login({ onSubmit }) {
     }
     setIsFormValid(isValid);
   }, [selectedDocument, documentNumber, password]);
+  
+  const biometricSetup = () => {
+    console.log("Entre en biometricSetup");
+    if (biometricAuthAvailable()) {
+      setIsBiometricOptionAvailable(HostApp.biometricAuthAvailable());
+    } else {
+      setIsBiometricOptionAvailable(false);
+    }
+  };
 
   useEffect(() => {
-    window.biometricSetup = () => {
-      if (biometricAuthAvailable()) {
-        setIsBiometricOptionAvailable(HostApp.biometricAuthAvailable());
-      }
-      else {
-        setIsBiometricOptionAvailable(false); // No disponible si no es app móvil o HostApp no existe
-      }
-      //setIsBiometricOptionAvailable(true); //TO DO Des/Comentar línea para testear
-    };
+    window.biometricSetup = biometricSetup;
 
     window.biometricAuthAvailable = () => {
       if (isMobileApp && HostApp) {
