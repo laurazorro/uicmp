@@ -123,8 +123,10 @@ export default function Formulario_login({ onSubmit }) {
     window.biometricSetup = () => {
       console.log("Entre en biometricSetup");
       if (biometricAuthAvailable()) {
+        console.log("biometricAuthAvailable true");
         setIsBiometricOptionAvailable(HostApp.biometricAuthAvailable());
       } else {
+        console.log("biometricAuthAvailable false");
         setIsBiometricOptionAvailable(false);
       }
       console.log(biometricAuthAvailable());
@@ -132,6 +134,8 @@ export default function Formulario_login({ onSubmit }) {
     };
 
     window.biometricAuthAvailable = () => {
+      console.log("isMobileApp",isMobileApp);
+      console.log(HostApp);
       if (isMobileApp && HostApp) {
         try {
           return HostApp.biometricAuthAvailable();
