@@ -196,7 +196,7 @@ export default function Formulario_login({ onSubmit }) {
     };
 
     biometricSetup();
-  }, []);
+  }, [HostApp]);
 
   const handleSelectChange = (document) => {
     setSelectedDocument(document);
