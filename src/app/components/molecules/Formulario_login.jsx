@@ -107,17 +107,29 @@ export default function Formulario_login({ onSubmit }) {
     setIsFormValid(isValid);
   }, [selectedDocument, documentNumber, password]);
   
-  const biometricSetup = () => {
+  /*const biometricSetup = () => {
     console.log("Entre en biometricSetup");
     if (biometricAuthAvailable()) {
       setIsBiometricOptionAvailable(HostApp.biometricAuthAvailable());
     } else {
       setIsBiometricOptionAvailable(false);
     }
-  };
+    console.log(biometricAuthAvailable());
+    console.log("IsBiometricOptionAvailable",isBiometricOptionAvailable);
+  };*/
 
   useEffect(() => {
-    window.biometricSetup = biometricSetup;
+    //window.biometricSetup = biometricSetup;
+    window.biometricSetup = () => {
+      console.log("Entre en biometricSetup");
+      if (biometricAuthAvailable()) {
+        setIsBiometricOptionAvailable(HostApp.biometricAuthAvailable());
+      } else {
+        setIsBiometricOptionAvailable(false);
+      }
+      console.log(biometricAuthAvailable());
+      console.log("IsBiometricOptionAvailable",isBiometricOptionAvailable);
+    };
 
     window.biometricAuthAvailable = () => {
       if (isMobileApp && HostApp) {
